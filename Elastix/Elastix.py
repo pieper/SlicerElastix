@@ -389,6 +389,8 @@ class ElastixLogic(ScriptedLoadableModuleLogic):
       # install tree
       os.path.join(self.scriptPath, '..'),
       os.path.join(self.scriptPath, '../../../bin'),
+      # mac install tree
+      os.path.join(self.scriptPath, '..'),
       # build tree
       os.path.join(self.scriptPath, '../../../../bin'),
       os.path.join(self.scriptPath, '../../../../bin/Release'),
